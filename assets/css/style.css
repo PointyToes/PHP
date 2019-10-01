@@ -1,0 +1,321 @@
+/* --- Body --- */
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+body#myPage {
+  padding-top: 50px
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* --- Button --- */
+/* Btn Main */
+.btn-main {
+  background-color: #e6b87b;
+  border-color: #e6b87b;
+  color: #fffffe;
+}
+.btn-main:hover,
+.btn-main:focus {
+  background-color: #cfa56e;
+  border-color: #cfa56e;
+  color: #fffffe;
+}
+/* Btn Lead */
+.btn-lead {
+  background-color:	#b49dc2;
+  border-color: #b49dc2;
+  color: #fffffe;
+}
+.btn-lead:hover,
+.btn-lead:focus {
+  background-color: #907d9b;
+  border-color: #907d9b;
+  color: 	#fffffe;
+}
+
+/* --- Navbar --- */
+.navbar {
+    margin-bottom: 0;
+    background-color: #b49dc2;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar-brand {
+    color: #fffffe !important;
+    font-family: Lobster, cursive;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.navbar-nav li a {
+  color: #fffffe !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #b49dc2 !important;
+    background-color: #fffffe !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fffffe !important;
+}
+/* Navbar Dropdown Menu */
+.dropdown-menu > li > a {
+  display: block;
+  padding: 10px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333 !important;
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #337ab7;
+  outline: 0;
+}
+
+/* --- Jumbotron --- */
+.jumbotron {
+    background-color: #b49dc2;
+    color: #fffffe;
+    padding: 80px 50px;
+    font-family: Montserrat, sans-serif;
+}
+.jumbotron > h1 {
+  font-family: 'Lobster', cursive;
+}
+
+
+.title-product {
+  font-family: 'Lobster',cursive;
+  text-transform: none;
+  color: #b49dc2;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+
+
+.container-fluid {
+    padding: 50px 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.logo-extra-small {
+  font-size: 15px;
+}
+.logo-small {
+    color: 	#b49dc2;
+    font-size: 50px;
+}
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item span {
+    font-style: normal;
+}
+.panel {
+    border: 1px solid #E6B87B;
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-heading {
+  padding: 0;
+}
+.panel-body h5 {
+  margin: 5px 10px 5px 10px;
+  color: inherit;
+  min-height: 38px;
+  max-height: 38px;
+}
+.panel-footer {
+    background-color: #fffffe !important;
+}
+.panel-footer h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #b49dc2;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+
+
+.footer-links {
+  font-size: 12px !important;
+  letter-spacing: 2px;
+  font-family: Montserrat, sans-serif;
+}
+.footer-links li {
+  margin-top: 5px;
+}
+.input-group {
+  padding-top: 10px;
+}
+
+td a:hover,
+td a:focus {
+  text-decoration: none;
+  color: #b49dc2;
+}
+
+
+/*Card Slider*/
+/*@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #fffffe;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 10 10 10px 10px;
+    margin: 5px;
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    /*float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+.price-text-color
+{
+    color: #219FD1;
+}
+.clear-left
+{
+    clear: left;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}*/
+/*End Card Slider*/
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 150px;
+  }
+}
